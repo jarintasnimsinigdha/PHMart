@@ -296,3 +296,21 @@ footer{
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-width:1200px) {
+    header,.hero-section,.products-section{
+        padding: 1rem 10rem;
+
+    }
+    .hero-section.hero-content p{
+        width: 35rem;
+        font-size: 4rem;
+    }
+    .hero-section.hero-content h1{
+        width: 35rem;
+    }
+    header nav .logo h1{
+        font-size: 3rem;
+    }
+    
+}
